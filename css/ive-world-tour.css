@@ -1,0 +1,572 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+}
+
+body {
+  background-color: #181818;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 80px;
+}
+
+.navbar img {
+  width: 50px;
+}
+
+#left-icon {
+  margin-right: 530px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 60px;
+}
+
+.navbar ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar ul li a {
+  color: rgba(255, 255, 255, 0.308);
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+}
+
+.navbar ul li a:hover {
+  color: white;
+}
+
+.navbutton {
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  margin-left: 470px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.navbutton:hover {
+  border-width: 1px;
+  border-color: white;
+  background: none;
+  color: white;
+}
+
+@media (max-width: 1850px) {
+
+  #left-icon {
+    margin: 0;
+    margin-right: 430px;
+  }
+
+  .navbutton {
+    white-space: nowrap;
+    margin: 0;
+    margin-left: 370px;
+  }
+
+  .navbar ul li a {
+    white-space: nowrap;
+  }
+
+}
+
+@media (max-width: 1600px) {
+
+  #left-icon {
+    margin: 0;
+    margin-right: 430px;
+  }
+
+  .navbutton {
+    white-space: nowrap;
+    margin: 0;
+    margin-left: 370px;
+  }
+
+  .navbar ul li a {
+    white-space: nowrap;
+  }
+
+}
+
+@media (max-width: 1470px) {
+
+  #left-icon {
+    margin: 0;
+    margin-right: 330px;
+  }
+
+  .navbutton {
+    white-space: nowrap;
+    margin: 0;
+    margin-left: 270px;
+  }
+
+  .navbar ul li a {
+    white-space: nowrap;
+  }
+
+}
+
+@media (max-width: 1280px) {
+
+  #left-icon {
+    margin: 0;
+    margin-right: 280px;
+  }
+
+  .navbutton {
+    white-space: nowrap;
+    margin: 0;
+    margin-left: 220px;
+  }
+
+  .navbar ul li a {
+    white-space: nowrap;
+  }
+
+}
+
+@media (max-width: 1180px) {
+
+  #left-icon {
+    margin: 0;
+    margin-right: 230px;
+  }
+
+  .navbutton {
+    white-space: nowrap;
+    margin: 0;
+    margin-left: 170px;
+  }
+
+  .navbar ul li a {
+    white-space: nowrap;
+  }
+
+}
+
+@media (max-width: 1020px) {
+
+  #left-icon {
+    display: none;
+  }
+
+  .navbutton {
+    display: none;
+  }
+
+  .navbar ul li a {
+    white-space: nowrap;
+  }
+
+}
+
+@media (max-width: 700px) {
+  
+  .navbar ul {
+    gap: 20px;  
+  }
+
+  .navbar ul li a {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  #left-icon {
+    margin-right: 0;
+  }
+
+  .navbutton {
+    margin-left: 0;
+  }
+
+  .navbar img {
+    display: none;
+  }
+
+  .navbutton {
+    display: none;
+  }
+}
+
+/* world tour */
+
+.date-tour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.date-tour h2 {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.308);
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  transition: all 0.2s ease;
+}
+
+.date-tour p {
+  margin-bottom: 70px;
+  color: rgba(255, 255, 255, 0.308);
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+}
+
+.date-tour h2:hover, .date-tour p:hover {
+  color: white;
+}
+
+.date-tour img {
+  width: 1350px;
+  border-radius: 5px;
+  margin-bottom: 70px;
+}
+
+.ticket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 73%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 35px;
+  background-image: linear-gradient(
+    130deg,
+    hsl(197deg 97% 49%) 0%,
+    hsl(205deg 98% 62%) 13%,
+    hsl(211deg 100% 69%) 25%,
+    hsl(220deg 100% 74%) 36%,
+    hsl(234deg 100% 80%) 50%,
+    hsl(253deg 100% 81%) 67%,
+    hsl(270deg 96% 79%) 100%
+  );
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+
+.ticket h2 {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 30px;
+  transition: all 0.2s ease;
+}
+
+.ticket p {
+  color: white;
+  max-width: 90ch;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.ticket-button {
+  color: #181818;
+  padding: 15px 30px;
+  background-color: white;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.4s ease;
+}
+
+.ticket-button:hover {
+  opacity: 0.75;
+}
+
+.ticket-button:active {
+  opacity: 0.3;
+}
+
+@media (max-width: 1400px) {
+  
+  .date-tour img {
+    width: 1200px;
+  }
+
+}
+
+@media (max-width: 1250px) {
+  
+  .date-tour img {
+    width: 1000px;
+  }
+
+}
+
+@media (max-width: 1050px) {
+
+  .date-tour img {
+    width: 850px;
+  }
+}
+
+@media (max-width: 890px) {
+  
+  .date-tour img {
+    width: 600px;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .date-tour h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .date-tour p {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .date-tour img {
+    width: 325px;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .ticket p {
+    font-size: 14.5px;
+    max-width: 30ch;
+  }
+
+  .ticket-button {
+    font-size: 12.5px;
+  }
+
+  .ticket-button i {
+    font-size: 9.5px;
+    margin: 0;
+  }
+
+}
+
+/* footer */
+
+.ive-footer {
+  width: 73%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.container {
+  display: flex;
+  gap: 150px;
+}
+
+.container-list {
+  font-size: 16px;
+}
+
+.container-list a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.308);
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.container-list a:hover {
+  color: white;
+}
+
+.footer-logo img {
+  width: 150px;
+  margin-right: 170px;
+  cursor: pointer;
+}
+
+#footer-hr {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  color: rgba(255, 255, 255, 0.308);
+  border-style: solid;
+  width: 1100px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.icons i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-radius: 50%;
+  border-style: solid;
+  width: 15px;
+  height: 15px;
+  padding: 15px;
+  color: rgba(255, 255, 255, 0.308);
+  transition: all 0.3s ease;
+}
+
+.icons i:hover {
+  color: #181818;
+  background-color: white;
+}
+
+.icons-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.308);
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.icons-paragraph p {
+    transition: all 0.2s ease;
+}
+
+.icons-paragraph p:hover {
+  color: white;
+}
+
+@media (max-width: 1525px) {
+
+  .ive-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer-logo img {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 1150px) {
+
+  #footer-hr {
+    width: 650px;
+  }
+
+}
+
+@media (max-width: 1060px) {
+
+  .container {
+    gap: 100px;
+  }
+
+  #footer-hr {
+    width: 450px;
+  }
+
+}
+
+@media (max-width: 910px) {
+
+  .container {
+    gap: 50px;
+  }
+
+  #footer-hr {
+    width: 450px;
+  }
+
+}
+
+@media (max-width: 780px) {
+
+  .container {
+    display: block;
+    text-align: center;
+  }
+
+  .container-list {
+    margin-bottom: 15px;
+  }
+
+  #footer-hr {
+    width: 450px;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .ive-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .footer-logo img {
+    width: 135px;
+    margin-right: 0;
+  }
+  
+  .container1 {
+    display: block;
+  }
+
+  .container-list1 {
+    margin-bottom: 15px;
+  }
+
+  .container-list1 a {
+    font-size: 16px;
+  }
+
+  #footer-hr {
+    width: 250px;
+  }
+}
